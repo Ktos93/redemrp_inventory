@@ -187,7 +187,7 @@ end)
 
 
 RegisterCommand('getinv', function(source, args)
-    TriggerServerEvent("player:getItems", source)
+     TriggerServerEvent("redemrp_inventory:LoadItems")
 end)
 
 
